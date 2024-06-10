@@ -1,0 +1,16 @@
+.contractTitleContainer{
+    display: flex;
+    align-items: center;
+
+    margin: 50px 0 20px 0;
+}
+.contractImageTitle{
+    width: 22px;
+    height: 22px;
+    
+}
+.contractTitle{
+    font-size: 20px;
+    margin-right: 5px;
+    
+}

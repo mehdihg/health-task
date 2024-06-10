@@ -1,0 +1,62 @@
+.welcomeContainer{
+    width: 100%;
+    height: 210px;
+    background-color: #428ADF;
+    border-radius: 20px;
+    padding: 30px 25px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.navbar img{
+    width: 28px;
+    height: 28px;
+}
+.welcomeTextContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.welcomeTextRight,.welcomeTextLeft{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.welcomeText{
+    font-size: 22px;
+    
+    font-weight: 700;
+}
+.welcomeTextName{
+    font-weight: 400;
+    color: #ffffffda;
+    font-size: 16px;
+}
+.welcomeInventory{
+    font-weight: 400;
+    color: #ffffffda;
+    font-size: 16px;
+   
+    text-align: left;
+}
+.welcomePrice{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+}
+.welcomePrice span{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 4px;
+}

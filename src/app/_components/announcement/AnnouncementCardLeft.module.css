@@ -1,0 +1,23 @@
+.announcementCardLeft {
+  
+  border-radius: 16px;
+  box-shadow: none;
+  
+}
+.announcementCardLeftTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #54565e;
+
+}
+.announcementCardLeftText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #54565e;
+}
+.announcementCardLeftContent img {
+  width: 48px;
+  height: 48px;
+  margin-top: 15px;
+}

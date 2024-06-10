@@ -1,0 +1,18 @@
+.CategoryCard{
+width:calc(50% - 10px) ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+box-shadow: none;
+padding: 16px !important;
+}
+.CategoryCardContent{
+    text-align: center;
+}
+.CardText{
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 700;
+    color: #54565E;
+}

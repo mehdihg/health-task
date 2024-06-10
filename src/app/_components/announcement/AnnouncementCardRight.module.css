@@ -1,0 +1,22 @@
+.announcementCardRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: none;
+
+}
+.announcementCardRightContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+padding: 16px 10px !important;
+}
+.announcementCardRightText {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #54565e;
+}

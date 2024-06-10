@@ -1,7 +1,15 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
+import localFont from 'next/font/local'
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import theme from '../../theme';  // Adjust the path if necessary
+
+const myFont = localFont ({
+  src: '../../public/fonts/A-Iranian-Sans/Iranian Sans.ttf',
+  display: 'swap',
+  variable:'--font-iransans'
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +18,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fa" >
+      <body className={myFont.className}>
+        
+      <ThemeProvider theme={theme}>
+        <CssBaseline/>
+        {children}
+        </ThemeProvider>
+       
+        </body>
     </html>
   );
 }

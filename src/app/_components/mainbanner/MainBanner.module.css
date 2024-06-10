@@ -1,0 +1,13 @@
+.BannerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.BannerContainer img{
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
